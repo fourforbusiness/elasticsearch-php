@@ -69,7 +69,8 @@ use Elasticsearch\Namespaces\XpackNamespace;
  */
 class Client
 {
-    const VERSION = '7.17.0';
+    // changed to work with Elasticsearch 7.10 server
+    const VERSION = '7.10.0';
 
     /**
      * @var Transport
